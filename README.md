@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on C++ , Python , MERN<br>👯 I’m looking to collaborate on Web dev and hackathons;<br>🌱 I’m currently learning Python, NEXT.js, ML frameworks.<br>💬 Ask me about my secret ingredient in the recipe of perfect code  ."<br>⚡ Fun fact I'm a big foodie and love sweets.
+🔭 I’m currently working on C++ , Python , MERN<br>👯 I’m looking to collaborate on Web dev and hackathons;<br>🌱 I’m currently learning Python, NEXT.js, ML frameworks.<br>
 
 
 ## 🌐 Socials:
