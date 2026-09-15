@@ -1,0 +1,72 @@
+<svg viewBox="0 0 1000 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="System map: products, AI and ML builds, dev tools and university work around one developer">
+  <style>
+    .m { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; fill: #FFFFFF; }
+    .node { fill: none; stroke: #FFFFFF; stroke-width: 1; }
+    .wire { stroke: #FFFFFF; stroke-opacity: .5; stroke-width: 1; stroke-dasharray: 500; animation: draw 1.6s cubic-bezier(.6,0,.2,1) backwards; }
+    @keyframes draw { from { stroke-dashoffset: 500; } }
+    .w1{animation-delay:.2s}.w2{animation-delay:.32s}.w3{animation-delay:.44s}.w4{animation-delay:.56s}.w5{animation-delay:.68s}.w6{animation-delay:.8s}.w7{animation-delay:.92s}.w8{animation-delay:1.04s}.w9{animation-delay:1.16s}
+    .flow { stroke: #FFFFFF; stroke-width: 1; stroke-opacity: .35; stroke-dasharray: 3 9; animation: march 1.4s linear infinite; }
+    @keyframes march { to { stroke-dashoffset: -12; } }
+    .pop { animation: pop .7s cubic-bezier(.2,.7,.2,1) backwards; }
+    @keyframes pop { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+    .p0{animation-delay:.1s}.p1{animation-delay:.9s}.p2{animation-delay:1.0s}.p3{animation-delay:1.1s}.p4{animation-delay:1.2s}.p5{animation-delay:1.3s}.p6{animation-delay:1.4s}.p7{animation-delay:1.5s}.p8{animation-delay:1.6s}.p9{animation-delay:1.7s}.p10{animation-delay:1.9s}
+    .core { animation: breathe 3.2s ease-in-out infinite; }
+    @keyframes breathe { 0%,100%{opacity:1} 50%{opacity:.55} }
+    @media (prefers-reduced-motion: reduce) { .wire,.flow,.pop,.core { animation: none; } .wire { stroke-dashoffset: 0; } .pop { opacity: 1; } }
+  </style>
+
+  <line x1="48" y1="40" x2="952" y2="40" stroke="#FFFFFF"/>
+  <text class="m" fill-opacity=".6" x="48" y="28" font-size="11" letter-spacing="3.5">WHAT I BUILD, GROUPED</text>
+  <text class="m" fill-opacity=".6" x="952" y="28" font-size="11" letter-spacing="3.5" text-anchor="end">FIG. 01</text>
+
+  <!-- wires: core edge to node edge -->
+  <g>
+    <line class="wire w1" x1="460" y1="262" x2="380" y2="164"/>
+    <line class="wire w2" x1="540" y1="262" x2="620" y2="164"/>
+    <line class="wire w3" x1="405" y1="275" x2="220" y2="187"/>
+    <line class="wire w4" x1="405" y1="290" x2="220" y2="290"/>
+    <line class="wire w5" x1="405" y1="305" x2="220" y2="393"/>
+    <line class="wire w6" x1="595" y1="275" x2="780" y2="187"/>
+    <line class="wire w7" x1="595" y1="290" x2="780" y2="290"/>
+    <line class="wire w8" x1="595" y1="305" x2="780" y2="393"/>
+    <line class="wire w9" x1="500" y1="318" x2="500" y2="480"/>
+  </g>
+  <g>
+    <line class="flow" x1="460" y1="262" x2="380" y2="164"/>
+    <line class="flow" x1="540" y1="262" x2="620" y2="164"/>
+    <line class="flow" x1="405" y1="275" x2="220" y2="187"/>
+    <line class="flow" x1="405" y1="290" x2="220" y2="290"/>
+    <line class="flow" x1="405" y1="305" x2="220" y2="393"/>
+    <line class="flow" x1="595" y1="275" x2="780" y2="187"/>
+    <line class="flow" x1="595" y1="290" x2="780" y2="290"/>
+    <line class="flow" x1="595" y1="305" x2="780" y2="393"/>
+    <line class="flow" x1="500" y1="318" x2="500" y2="480"/>
+  </g>
+
+  <!-- cluster labels -->
+  <text class="m pop p10" fill-opacity=".75" x="500" y="92" font-size="10" letter-spacing="3" text-anchor="middle">PRODUCTS</text>
+  <text class="m pop p10" fill-opacity=".75" x="130" y="142" font-size="10" letter-spacing="3" text-anchor="middle">AI &amp; ML</text>
+  <text class="m pop p10" fill-opacity=".75" x="870" y="142" font-size="10" letter-spacing="3" text-anchor="middle">DEV TOOLS</text>
+  <text class="m pop p10" fill-opacity=".75" x="500" y="560" font-size="10" letter-spacing="3" text-anchor="middle">UNIVERSITY</text>
+
+  <!-- core -->
+  <g class="pop p0">
+    <rect class="node core" x="405" y="262" width="190" height="56" rx="2"/>
+    <text class="m" x="500" y="286" font-size="13" letter-spacing="2" text-anchor="middle">LAKSHAY.SYS</text>
+    <text class="m" fill-opacity=".6" x="500" y="304" font-size="8.5" letter-spacing=".5" text-anchor="middle">freelance + open source</text>
+  </g>
+
+  <!-- nodes -->
+  <g class="pop p1"><rect class="node" x="290" y="110" width="180" height="54" rx="2"/><text class="m" x="380" y="133" font-size="12" letter-spacing="1" text-anchor="middle">neatmail</text><text class="m" fill-opacity=".6" x="380" y="152" font-size="9" letter-spacing="1" text-anchor="middle">AI inbox · 145 stars</text></g>
+  <g class="pop p2"><rect class="node" x="530" y="110" width="180" height="54" rx="2"/><text class="m" x="620" y="133" font-size="12" letter-spacing="1" text-anchor="middle">valueflow nexus</text><text class="m" fill-opacity=".6" x="620" y="152" font-size="9" letter-spacing="1" text-anchor="middle">SaaS · 17 analysis lenses</text></g>
+  <g class="pop p3"><rect class="node" x="40" y="160" width="180" height="54" rx="2"/><text class="m" x="130" y="183" font-size="12" letter-spacing="1" text-anchor="middle">adaptive rag</text><text class="m" fill-opacity=".6" x="130" y="202" font-size="9" letter-spacing="1" text-anchor="middle">LangGraph · FAISS</text></g>
+  <g class="pop p4"><rect class="node" x="40" y="263" width="180" height="54" rx="2"/><text class="m" x="130" y="286" font-size="12" letter-spacing="1" text-anchor="middle">resonanze</text><text class="m" fill-opacity=".6" x="130" y="305" font-size="9" letter-spacing="1" text-anchor="middle">voice → health report</text></g>
+  <g class="pop p5"><rect class="node" x="40" y="366" width="180" height="54" rx="2"/><text class="m" x="130" y="389" font-size="12" letter-spacing="1" text-anchor="middle">neatmail model</text><text class="m" fill-opacity=".6" x="130" y="408" font-size="9" letter-spacing="1" text-anchor="middle">email classifier</text></g>
+  <g class="pop p6"><rect class="node" x="780" y="160" width="180" height="54" rx="2"/><text class="m" x="870" y="183" font-size="12" letter-spacing="1" text-anchor="middle">unasked</text><text class="m" fill-opacity=".6" x="870" y="202" font-size="9" letter-spacing="1" text-anchor="middle">scope drift for agents</text></g>
+  <g class="pop p7"><rect class="node" x="780" y="263" width="180" height="54" rx="2"/><text class="m" x="870" y="286" font-size="12" letter-spacing="1" text-anchor="middle">relay</text><text class="m" fill-opacity=".6" x="870" y="305" font-size="9" letter-spacing="1" text-anchor="middle">shared terminals</text></g>
+  <g class="pop p8"><rect class="node" x="780" y="366" width="180" height="54" rx="2"/><text class="m" x="870" y="389" font-size="12" letter-spacing="1" text-anchor="middle">pixelcat</text><text class="m" fill-opacity=".6" x="870" y="408" font-size="9" letter-spacing="1" text-anchor="middle">desktop pet · Electron</text></g>
+  <g class="pop p9"><rect class="node" x="410" y="480" width="180" height="54" rx="2"/><text class="m" x="500" y="503" font-size="12" letter-spacing="1" text-anchor="middle">avlokan</text><text class="m" fill-opacity=".6" x="500" y="522" font-size="9" letter-spacing="1" text-anchor="middle">certificates · 10K+ users</text></g>
+
+  <line x1="48" y1="600" x2="952" y2="600" stroke="#FFFFFF"/>
+  <text class="m" fill-opacity=".45" x="952" y="622" font-size="10" letter-spacing="2" text-anchor="end">VALUEFLOW NEXUS IS PRIVATE · THE REST IS ON GITHUB</text>
+</svg>

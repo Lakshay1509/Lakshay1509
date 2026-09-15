@@ -1,0 +1,72 @@
+<svg viewBox="0 0 1000 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Eight projects by Lakshay Gupta">
+  <style>
+    .m { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; fill: #FFFFFF; }
+    .row { animation: reveal .55s cubic-bezier(.2,.7,.2,1) backwards; }
+    .rule { stroke: #FFFFFF; stroke-width: 1; }
+    .title { font-size: 17px; font-weight: 700; letter-spacing: .8px; }
+    .copy { font-size: 12px; }
+    .meta { font-size: 11px; letter-spacing: .4px; fill-opacity: .6; }
+    @keyframes reveal { from { opacity:0; } to { opacity:1; } }
+    .r1{animation-delay:.05s}.r2{animation-delay:.10s}.r3{animation-delay:.15s}.r4{animation-delay:.20s}.r5{animation-delay:.25s}.r6{animation-delay:.30s}.r7{animation-delay:.35s}.r8{animation-delay:.40s}
+    @media (prefers-reduced-motion: reduce) { .row { animation: none; opacity: 1; } }
+  </style>
+
+  <g class="m">
+    <g class="row r1" transform="translate(0 20)">
+      <text class="m title" x="48" y="24">01 / NEATMAIL</text>
+      <text class="m copy" x="48" y="49">Production SaaS that labels Gmail and Outlook inboxes in real time with AI. Live at neatmail.app, 145 stars.</text>
+      <text class="m copy" x="48" y="68">Bulk unsubscribe, AI draft replies you approve from Telegram, encrypted PII, and corrections fed back as few-shot examples.</text>
+      <text class="m meta" x="48" y="87">NEXT.JS · TYPESCRIPT · PYTHON · OPENAI · PINECONE · PRISMA · REDIS · BULLMQ · GMAIL API · GRAPH API</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r2" transform="translate(0 130)">
+      <text class="m title" x="48" y="24">02 / VALUEFLOW NEXUS</text>
+      <text class="m copy" x="48" y="49">Multi-tenant consulting SaaS that maps a client's operations across 17 analysis lenses. Freelance, private repo.</text>
+      <text class="m copy" x="48" y="68">Streaming AI chat over the whole ValueMap. Prompt caching cut a follow-up question from $0.085 to $0.010.</text>
+      <text class="m meta" x="48" y="87">NEXT.JS · TRPC · HONO · POSTGRESQL · DRIZZLE · ROW-LEVEL SECURITY · BULLMQ · REDIS · CLERK</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r3" transform="translate(0 240)">
+      <text class="m title" x="48" y="24">03 / ADAPTIVE RAG</text>
+      <text class="m copy" x="48" y="49">LangGraph agent that sends each query to document retrieval, Tavily web search, or a direct LLM answer.</text>
+      <text class="m copy" x="48" y="68">Grades what it retrieves and rewrites weak queries before generating. FastAPI backend, MongoDB chat history.</text>
+      <text class="m meta" x="48" y="87">PYTHON · LANGGRAPH · LANGCHAIN · FASTAPI · FAISS · GPT-4O · TAVILY · MONGODB · STREAMLIT</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r4" transform="translate(0 350)">
+      <text class="m title" x="48" y="24">04 / UNASKED</text>
+      <text class="m copy" x="48" y="49">Scope-drift detector for coding agents. Did the change stay inside what you asked for?</text>
+      <text class="m copy" x="48" y="68">Tags every changed file as in-scope, derived, or drift, and blocks the turn when drift is risky. 448 tests, zero deps.</text>
+      <text class="m meta" x="48" y="87">PYTHON · CODING AGENTS · ZERO DEPENDENCIES · ZERO MODEL CALLS</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r5" transform="translate(0 460)">
+      <text class="m title" x="48" y="24">05 / RELAY</text>
+      <text class="m copy" x="48" y="49">Shares a terminal, including a live Claude Code session, into someone else's terminal byte for byte.</text>
+      <text class="m copy" x="48" y="68">Watch-only or collaborative with live cursors. Sessions record to disk, so people can replay them or join from a browser.</text>
+      <text class="m meta" x="48" y="87">PYTHON · ONE FILE · ZERO DEPENDENCIES · XTERM.JS</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r6" transform="translate(0 570)">
+      <text class="m title" x="48" y="24">06 / PIXELCAT</text>
+      <text class="m copy" x="48" y="49">A pixel cat that lives on your desktop, follows your cursor, and knows when your AI agent is thinking.</text>
+      <text class="m copy" x="48" y="68">Pomodoro headband, water reminders, yarn when you scroll. Zero network calls. Builds for macOS, Windows and Linux.</text>
+      <text class="m meta" x="48" y="87">JAVASCRIPT · ELECTRON · DESKTOP</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r7" transform="translate(0 680)">
+      <text class="m title" x="48" y="24">07 / PROJECT AVLOKAN</text>
+      <text class="m copy" x="48" y="49">NSUT's certificate management and access control platform. 10K+ users, 7K+ certificates verified.</text>
+      <text class="m copy" x="48" y="68">Role-based dashboards for students, faculty and admins, CSV bulk upload and export, and a manual verification flow.</text>
+      <text class="m meta" x="48" y="87">REACT · TYPESCRIPT · TAILWIND CSS · TANSTACK QUERY · AOAA COMMITTEE, NSUT</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r8" transform="translate(0 790)">
+      <text class="m title" x="48" y="24">08 / RESONANZE</text>
+      <text class="m copy" x="48" y="49">Voice health tool that predicts likely conditions from a 5-second voice sample with 90% precision.</text>
+      <text class="m copy" x="48" y="68">A TensorFlow classifier feeds a Groq LLM that writes the health report, on the web and in a Telegram bot.</text>
+      <text class="m meta" x="48" y="87">REACT · NODE.JS · EXPRESS · MONGODB · FLASK · TENSORFLOW · GROQ</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+  </g>
+</svg>

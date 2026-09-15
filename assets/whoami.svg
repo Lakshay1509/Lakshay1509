@@ -1,0 +1,24 @@
+<svg viewBox="0 0 1000 236" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="whoami: bio, focus, status, elsewhere">
+  <style>
+    .m { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; fill: #000000; }
+    .rise { animation: rise .7s cubic-bezier(.2,.7,.2,1) backwards; }
+    @keyframes rise { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+    .a1{animation-delay:.1s} .a2{animation-delay:.2s} .a3{animation-delay:.35s} .a4{animation-delay:.5s} .a5{animation-delay:.65s} .a6{animation-delay:.8s}
+    @media (prefers-reduced-motion: reduce) { .rise { animation: none; opacity: 1; } }
+  </style>
+
+  <text class="m rise a1" x="48" y="32" font-size="16">final-year CS student at Netaji Subhas University of Technology, New Delhi.</text>
+  <text class="m rise a2" x="48" y="60" font-size="16">freelance full-stack dev on ValueFlow Nexus, a multi-tenant consulting SaaS.</text>
+  <text class="m rise a3" fill-opacity=".6" x="48" y="88" font-size="15">I like owning a product end to end: the UI, the Postgres schema, the queue, the LLM bill.</text>
+
+  <line class="rise a4" x1="48" y1="116" x2="952" y2="116" stroke="#000000" stroke-opacity=".3" stroke-width="1"/>
+
+  <text class="m rise a4" fill-opacity=".6" x="48" y="148" font-size="11" letter-spacing="2.5">FOCUS</text>
+  <text class="m rise a4" x="154" y="148" font-size="15">SaaS backends · LLM apps and agents · PostgreSQL · dev tools</text>
+
+  <text class="m rise a5" fill-opacity=".6" x="48" y="182" font-size="11" letter-spacing="2.5">STATUS</text>
+  <text class="m rise a5" fill-opacity=".75" x="154" y="182" font-size="15">open to internships · freelance</text>
+
+  <text class="m rise a6" fill-opacity=".6" x="48" y="216" font-size="11" letter-spacing="2.5">ELSEWHERE</text>
+  <text class="m rise a6" x="154" y="216" font-size="15">LeetCode 1754 (top 11%) · 1st at Code Nakshatra and Hackonanz</text>
+</svg>

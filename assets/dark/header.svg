@@ -1,0 +1,40 @@
+<svg viewBox="0 0 1000 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lakshay Gupta, full-stack developer building AI products, New Delhi">
+  <style>
+    .m { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; fill: #FFFFFF; }
+    .draw { stroke: #FFFFFF; stroke-width: 1; stroke-dasharray: 1000; animation: draw 1.4s cubic-bezier(.6,0,.2,1) backwards; }
+    @keyframes draw { from { stroke-dashoffset: 1000; } }
+    .rise { animation: rise .9s cubic-bezier(.2,.7,.2,1) backwards; }
+    @keyframes rise { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
+    .fade { animation: fade .7s ease backwards; }
+    @keyframes fade { from { opacity: 0; } }
+    .a1{animation-delay:.2s} .a2{animation-delay:.5s} .a3{animation-delay:.9s} .a4{animation-delay:1.2s} .a5{animation-delay:1.4s} .a6{animation-delay:1.7s}
+    @media (prefers-reduced-motion: reduce) { .draw,.rise,.fade { animation: none; } .draw { stroke-dashoffset: 0; } .rise,.fade { opacity: 1; } }
+  </style>
+
+  <line class="draw a1" x1="48" y1="58" x2="952" y2="58"/>
+  <g class="fade a1">
+    <text class="m" fill-opacity=".6" x="48" y="44" font-size="11" letter-spacing="3.5">GITHUB · LAKSHAY1509</text>
+    <text class="m" fill-opacity=".6" x="952" y="44" font-size="11" letter-spacing="3.5" text-anchor="end">NEW DELHI, IN · 28.61° N</text>
+  </g>
+
+  <g class="rise a2">
+    <text class="m" x="46" y="176" font-size="72" letter-spacing="-2">Lakshay Gupta</text>
+  </g>
+  <g class="fade a3">
+    <text class="m" fill-opacity=".6" x="48" y="214" font-size="19">Full-stack developer building AI products. New Delhi, India.</text>
+  </g>
+
+  <g class="fade a4">
+    <text class="m" fill-opacity=".45" x="48" y="274" font-size="12.5" letter-spacing="1">focus  ▸</text>
+    <text class="m" fill-opacity=".75" x="128" y="274" font-size="12.5" letter-spacing="1">SaaS backends · LLM apps and agents · PostgreSQL · job queues · dev tools</text>
+  </g>
+  <g class="fade a5">
+    <text class="m" fill-opacity=".45" x="48" y="300" font-size="12.5" letter-spacing="1">open to internships · freelance · final year at NSUT</text>
+  </g>
+
+  <line class="draw a5" x1="48" y1="342" x2="952" y2="342"/>
+  <g class="fade a6">
+    <text class="m" fill-opacity=".6" x="48" y="374" font-size="11.5" letter-spacing="3">FULL-STACK SAAS&#160;&#160;·&#160;&#160;AI AGENTS&#160;&#160;·&#160;&#160;DEV TOOLS</text>
+    <text class="m" fill-opacity=".6" x="952" y="374" font-size="11.5" letter-spacing="3" text-anchor="end">NSUT · 2023 / 2027</text>
+  </g>
+</svg>

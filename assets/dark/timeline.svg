@@ -1,0 +1,69 @@
+<svg viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline: 2021 first repo, 2023 NSUT, 2024 Hackonanz win, 2025 AVLOKAN and Code Nakshatra win, 2026 NeatMail and ValueFlow Nexus, now final year, 2027 graduation">
+  <style>
+    .m { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; fill: #FFFFFF; }
+    .axis { stroke: #FFFFFF; stroke-width: 1; stroke-dasharray: 1110; animation: draw 2.4s cubic-bezier(.6,0,.2,1) backwards; }
+    @keyframes draw { from { stroke-dashoffset: 1110; } }
+    .mk { animation: rise .7s cubic-bezier(.2,.7,.2,1) backwards; }
+    @keyframes rise { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+    .m1{animation-delay:.4s}.m2{animation-delay:.8s}.m3{animation-delay:1.2s}.m4{animation-delay:1.6s}.m5{animation-delay:2.0s}.m6{animation-delay:2.3s}.m7{animation-delay:2.6s}
+    .pulse { animation: pulse 2.6s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .ring { animation: ring 2.6s ease-out infinite; transform-origin: 1040px 125px; }
+    @keyframes ring { 0%{transform:scale(.4);opacity:.8} 80%,100%{transform:scale(3);opacity:0} }
+    @media (prefers-reduced-motion: reduce) { .axis,.mk,.pulse,.ring { animation: none; } .axis { stroke-dashoffset: 0; } .mk { opacity: 1; } .ring { opacity: 0; } }
+  </style>
+
+  <line x1="48" y1="40" x2="1152" y2="40" stroke="#FFFFFF"/>
+  <text class="m" fill-opacity=".6" x="48" y="28" font-size="11" letter-spacing="3.5">THE ROUTE SO FAR</text>
+  <text class="m" fill-opacity=".6" x="1152" y="28" font-size="11" letter-spacing="3.5" text-anchor="end">FIG. 03</text>
+
+  <line class="axis" x1="48" y1="125" x2="1158" y2="125"/>
+
+  <g class="mk m1">
+    <circle cx="100" cy="125" r="4" fill="#FFFFFF"/>
+    <line x1="100" y1="121" x2="100" y2="96" stroke="#FFFFFF" stroke-opacity=".4"/>
+    <text class="m" fill-opacity=".75" x="100" y="74" font-size="11" letter-spacing="2" text-anchor="middle">2021</text>
+    <text class="m" x="100" y="90" font-size="10.5" letter-spacing="1" text-anchor="middle">first repo</text>
+  </g>
+
+  <g class="mk m2">
+    <circle cx="290" cy="125" r="4" fill="#FFFFFF"/>
+    <line x1="290" y1="129" x2="290" y2="154" stroke="#FFFFFF" stroke-opacity=".4"/>
+    <text class="m" fill-opacity=".75" x="290" y="172" font-size="11" letter-spacing="2" text-anchor="middle">2023</text>
+    <text class="m" x="290" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">joined NSUT · B.Tech CS</text>
+  </g>
+
+  <g class="mk m3">
+    <circle cx="480" cy="125" r="4" fill="#FFFFFF"/>
+    <line x1="480" y1="121" x2="480" y2="96" stroke="#FFFFFF" stroke-opacity=".4"/>
+    <text class="m" fill-opacity=".75" x="480" y="74" font-size="11" letter-spacing="2" text-anchor="middle">2024</text>
+    <text class="m" x="480" y="90" font-size="10.5" letter-spacing="1" text-anchor="middle">1st at Hackonanz · 22 repos</text>
+  </g>
+
+  <g class="mk m4">
+    <circle cx="670" cy="125" r="4" fill="#FFFFFF"/>
+    <line x1="670" y1="129" x2="670" y2="154" stroke="#FFFFFF" stroke-opacity=".4"/>
+    <text class="m" fill-opacity=".75" x="670" y="172" font-size="11" letter-spacing="2" text-anchor="middle">2025</text>
+    <text class="m" x="670" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">AVLOKAN · 1st at Code Nakshatra</text>
+  </g>
+
+  <g class="mk m5">
+    <circle cx="860" cy="125" r="4" fill="#FFFFFF"/>
+    <line x1="860" y1="121" x2="860" y2="96" stroke="#FFFFFF" stroke-opacity=".4"/>
+    <text class="m" fill-opacity=".75" x="860" y="74" font-size="11" letter-spacing="2" text-anchor="middle">2026</text>
+    <text class="m" x="860" y="90" font-size="10.5" letter-spacing="1" text-anchor="middle">NeatMail · ValueFlow Nexus</text>
+  </g>
+
+  <g class="mk m6">
+    <circle class="ring" cx="1040" cy="125" r="4" stroke="#FFFFFF" fill="none"/>
+    <circle class="pulse" cx="1040" cy="125" r="4.5" fill="#FFFFFF"/>
+    <line x1="1040" y1="129" x2="1040" y2="154" stroke="#FFFFFF" stroke-opacity=".4"/>
+    <text class="m" fill-opacity=".75" x="1040" y="172" font-size="11" letter-spacing="2" text-anchor="middle">NOW</text>
+    <text class="m" x="1040" y="188" font-size="10.5" letter-spacing="1" text-anchor="middle">final year · open to work</text>
+  </g>
+
+  <g class="mk m7">
+    <circle cx="1152" cy="125" r="3" fill="#FFFFFF" fill-opacity=".45"/>
+    <text class="m" fill-opacity=".45" x="1152" y="105" font-size="10" letter-spacing="2" text-anchor="end">2027 → graduation</text>
+  </g>
+</svg>

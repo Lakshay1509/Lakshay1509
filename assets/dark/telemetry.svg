@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1000 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Telemetry: commits per year 2024 to 2026 and headline numbers">
+  <style>
+    .m { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; fill: #FFFFFF; }
+    .bar { fill: #FFFFFF; transform-origin: 48px 0; animation: grow 1.2s cubic-bezier(.2,.7,.2,1) backwards; }
+    @keyframes grow { from { transform: scaleX(0); } }
+    .g1{animation-delay:.3s}.g2{animation-delay:.5s}.g3{animation-delay:.7s}
+    .rise { animation: rise .8s cubic-bezier(.2,.7,.2,1) backwards; }
+    @keyframes rise { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+    .n1{animation-delay:.5s}.n2{animation-delay:.7s}.n3{animation-delay:.9s}.n4{animation-delay:1.1s}
+    @media (prefers-reduced-motion: reduce) { .bar,.rise { animation: none; } .bar { transform: scaleX(1); } .rise { opacity: 1; } }
+  </style>
+
+  <line x1="48" y1="40" x2="952" y2="40" stroke="#FFFFFF"/>
+  <text class="m" fill-opacity=".6" x="48" y="28" font-size="11" letter-spacing="3.5">PULLED FROM GITHUB, 15 SEP 2026</text>
+  <text class="m" fill-opacity=".6" x="952" y="28" font-size="11" letter-spacing="3.5" text-anchor="end">FIG. 02</text>
+  <line x1="600" y1="64" x2="600" y2="306" stroke="#FFFFFF" stroke-opacity=".3"/>
+
+  <!-- commits per year -->
+  <text class="m" fill-opacity=".45" x="48" y="78" font-size="10" letter-spacing="2.5">COMMITS PER YEAR</text>
+  <g class="m" font-size="11">
+    <text x="48" y="112">2024</text>
+    <rect class="bar g1" x="48" y="120" width="88" height="8" fill-opacity=".45"/>
+    <text fill-opacity=".6" x="146" y="128" font-size="10">229</text>
+
+    <text x="48" y="160">2025</text>
+    <rect class="bar g2" x="48" y="168" width="134" height="8" fill-opacity=".6"/>
+    <text fill-opacity=".6" x="192" y="176" font-size="10">350</text>
+
+    <text x="48" y="208">2026</text>
+    <rect class="bar g3" x="48" y="216" width="440" height="8"/>
+    <text fill-opacity=".6" x="498" y="224" font-size="10">1,148</text>
+  </g>
+  <text class="m" fill-opacity=".45" x="48" y="262" font-size="10" letter-spacing="1.5">2026 is only January to mid-September</text>
+  <text class="m" fill-opacity=".45" x="48" y="286" font-size="10" letter-spacing="1.5">repos created · 2024: 22 · 2025: 12 · 2026: 11</text>
+
+  <!-- counters -->
+  <g class="rise n1"><text class="m" x="636" y="112" font-size="36">1754</text><text class="m" fill-opacity=".6" x="746" y="106" font-size="10" letter-spacing="2.5">LEETCODE PEAK · TOP 11%</text></g>
+  <g class="rise n2"><text class="m" x="636" y="172" font-size="36">10K+</text><text class="m" fill-opacity=".6" x="746" y="166" font-size="10" letter-spacing="2.5">USERS ON AVLOKAN</text></g>
+  <g class="rise n3"><text class="m" x="636" y="232" font-size="36">88%</text><text class="m" fill-opacity=".6" x="746" y="226" font-size="10" letter-spacing="2.5">CHEAPER FOLLOW-UP CHAT</text></g>
+  <g class="rise n4"><text class="m" x="636" y="292" font-size="36">145</text><text class="m" fill-opacity=".6" x="746" y="286" font-size="10" letter-spacing="2.5">STARS ON NEATMAIL</text></g>
+</svg>

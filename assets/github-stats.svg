@@ -1,0 +1,31 @@
+<svg viewBox="0 0 1000 310" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub statistics and repository languages">
+  <style>
+    .m { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; fill: #000000; }
+    .panel,.rule,.bar { fill: none; stroke: #000000; stroke-width: 1; }
+    .fill { fill: #000000; }
+    .grow { transform-origin: 660px 0; animation: grow .8s cubic-bezier(.2,.7,.2,1) backwards; }
+    .g2{animation-delay:.1s}.g3{animation-delay:.2s}.g4{animation-delay:.3s}.g5{animation-delay:.4s}
+    @keyframes grow { from { transform: scaleX(0); } }
+    @media (prefers-reduced-motion: reduce) { .grow { animation: none; transform: scaleX(1); } }
+  </style>
+  <rect class="panel" x="24" y="20" width="456" height="270" rx="2"/>
+  <rect class="panel" x="520" y="20" width="456" height="270" rx="2"/>
+
+  <g class="m">
+    <text x="52" y="58" font-size="15" font-weight="700" letter-spacing="2">GITHUB STATS</text>
+    <line class="rule" x1="52" y1="72" x2="452" y2="72"/>
+    <text x="52" y="110" font-size="11" letter-spacing="1">TOTAL STARS</text><text x="436" y="110" font-size="13" text-anchor="end">154</text>
+    <text x="52" y="146" font-size="11" letter-spacing="1">PUBLIC REPOS</text><text x="436" y="146" font-size="13" text-anchor="end">52</text>
+    <text x="52" y="182" font-size="11" letter-spacing="1">ALL-TIME COMMITS</text><text x="436" y="182" font-size="13" text-anchor="end">1,727</text>
+    <text x="52" y="218" font-size="11" letter-spacing="1">PULL REQUESTS</text><text x="436" y="218" font-size="13" text-anchor="end">33</text>
+    <text x="52" y="254" font-size="11" letter-spacing="1">NEATMAIL FORKS</text><text x="436" y="254" font-size="13" text-anchor="end">19</text>
+
+    <text x="548" y="58" font-size="15" font-weight="700" letter-spacing="2">LANGUAGES BY REPOSITORY</text>
+    <line class="rule" x1="548" y1="72" x2="948" y2="72"/>
+    <text x="548" y="105" font-size="10">JAVASCRIPT</text><rect class="bar" x="660" y="94" width="250" height="12"/><rect class="fill grow" x="660" y="94" width="250" height="12"/><text x="948" y="105" font-size="10" text-anchor="end">18</text>
+    <text x="548" y="141" font-size="10">TYPESCRIPT</text><rect class="bar" x="660" y="130" width="250" height="12"/><rect class="fill grow g2" x="660" y="130" width="125" height="12"/><text x="948" y="141" font-size="10" text-anchor="end">9</text>
+    <text x="548" y="177" font-size="10">PYTHON</text><rect class="bar" x="660" y="166" width="250" height="12"/><rect class="fill grow g3" x="660" y="166" width="111" height="12"/><text x="948" y="177" font-size="10" text-anchor="end">8</text>
+    <text x="548" y="213" font-size="10">MDX</text><rect class="bar" x="660" y="202" width="250" height="12"/><rect class="fill grow g4" x="660" y="202" width="42" height="12"/><text x="948" y="213" font-size="10" text-anchor="end">3</text>
+    <text x="548" y="249" font-size="10">CSS</text><rect class="bar" x="660" y="238" width="250" height="12"/><rect class="fill grow g5" x="660" y="238" width="28" height="12"/><text x="948" y="249" font-size="10" text-anchor="end">2</text>
+  </g>
+</svg>
