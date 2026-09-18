@@ -320,6 +320,7 @@
   <rect x="868" y="160" width="13" height="13" rx="2" fill-opacity="0.07"><title>0 on 2026-08-28</title></rect>
   <rect x="884" y="160" width="13" height="13" rx="2" fill-opacity="0.3"><title>2 on 2026-09-04</title></rect>
   <rect x="900" y="160" width="13" height="13" rx="2" fill-opacity="0.07"><title>0 on 2026-09-11</title></rect>
+  <rect x="916" y="160" width="13" height="13" rx="2" fill-opacity="0.07"><title>0 on 2026-09-18</title></rect>
   <rect x="84" y="176" width="13" height="13" rx="2" fill-opacity="0.3"><title>2 on 2025-09-20</title></rect>
   <rect x="100" y="176" width="13" height="13" rx="2" fill-opacity="0.07"><title>0 on 2025-09-27</title></rect>
   <rect x="116" y="176" width="13" height="13" rx="2" fill-opacity="0.07"><title>0 on 2025-10-04</title></rect>
@@ -392,7 +393,7 @@
   <rect x="890" y="206" width="13" height="13" rx="2" fill-opacity="0.55"/>
   <rect x="906" y="206" width="13" height="13" rx="2" fill-opacity="0.8"/>
   <rect x="922" y="206" width="13" height="13" rx="2" fill-opacity="1"/>
-  <text class="m" fill-opacity=".45" x="48" y="217" font-size="10" letter-spacing="1.5">best day 24 on 2026-08-03 · updated 2026-09-17</text>
+  <text class="m" fill-opacity=".45" x="48" y="217" font-size="10" letter-spacing="1.5">best day 24 on 2026-08-03 · updated 2026-09-18</text>
   <text class="m" fill-opacity=".45" x="850" y="217" font-size="10" letter-spacing="1.5" text-anchor="end">less</text>
   <text class="m" fill-opacity=".45" x="944" y="217" font-size="10" letter-spacing="1.5">more</text>
 </svg>
